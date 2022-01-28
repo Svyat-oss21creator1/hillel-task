@@ -1,0 +1,226 @@
+@media (min-width: 640px){
+    .container-sp{
+        justify-content: space-between;
+     }
+    .sp-wraper{
+        max-width: 295px;
+    }
+    .publications{
+        position: relative;
+        padding: 60px 20px 0 20px;
+    }
+    .publication-section{
+        display: block ;
+        column-gap: 40px;
+        column-count: 2;
+    }
+    .publication-item{
+        margin-bottom: 40px;
+    }
+    .publications-h2 {
+        margin: 0 0 40px 0;
+    }
+    .publication-border-p,.publication-dec,
+    .publication-milenial-mob{
+        display: inline-block;
+    }
+    .border-decstope-none,.publication-display-none{
+        display: none;
+    }
+    .publication-image-dec{
+        width: 100%;
+    }
+}
+@media (min-width: 725px){
+    .sp-wraper{
+        max-width: 335px;
+    }
+}
+@media (min-width: 768px){
+    .lang,.header-adress,.phone a{ 
+        color: #ffffff;
+    }
+    .splash {
+        margin-top: 0;
+        background-image: url(../img/Frame-decstope.svg),url(../img/logomainhomepage.svg);
+        background-position: left calc(50% + 6px) top calc(50% + 10px),left calc(50% + 8px) top calc(50% + 68px); 
+    }
+    .splash h1{
+        padding: 180px 0 0 0;
+        max-width: 597px;
+    }
+    .shade{
+        margin: 180px 0 0 0;
+    }
+    .experience{
+        padding: 80px 10px 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .experience-wraper{
+        margin: 0;
+        text-align: right;
+    }
+    .experience-h3 {
+        margin: 0;
+        max-width: 527px;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: normal;
+        text-transform: none;
+        padding: 10px 20px 10px 0;
+        border-right: 4px solid #E6E6F0;
+    }
+    .experience-text-color{
+        border-right: 4px solid #F0145A;
+    }
+    .experience-h3:active{
+        background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-right: 4px solid #F0145A;
+    }
+    .display{
+        display: block;
+    }
+    .experience-right{
+        padding:0 0 0 20px;
+    }
+    .experience-header{
+        max-width: 600px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .experience-description{
+        max-width: 600px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .circle-wraper{
+        display: none;
+    }
+    .services{
+        margin: 0 4.167%;
+        padding-top: 80px;
+    }
+    .services-h1{
+        font-size: 42px;
+        line-height: 50px;
+        margin: 3px 0 68px 0;
+    }
+    .container-sp{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .sp-wraper{
+        flex-basis: 48%;
+        max-width: none;
+    }
+    .sp-description{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+    .logo{
+        width: 92px;
+        height: 92px;
+        padding: 9.45px;
+        background-image: url("../img/Rectangle.png");
+    }
+    .sp-header{
+        font-weight: 500;
+        max-width: 413px;
+        margin: 20px 0 5px 0;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .sp-paragraf{
+        margin: 0 0 58px 0;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .clients-logo{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .clients-logo-img{
+        max-width: 100%;
+    }
+    .header-text{
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .publication-shadow{
+        width: 100%;
+        text-align: center;
+        padding: 0 0 40px 0;
+    }
+}
+@media (min-width: 1024px){
+    .experience-h3{
+        font-size: 42px;
+        line-height: 50px;
+        padding: 0 40px 0 0;
+    }
+    .experience-right{
+        padding:0 0 0 40px;
+    }
+    .experience-header{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .experience-description{
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .sp-wraper{
+        flex-basis: 32%;
+    }
+    
+    .publications{
+        height: 872px;
+        overflow: hidden;
+        padding: 60px 60px 0 60px;
+    }
+    .publication-section{
+        column-count: 3;
+    }
+    .publications-h2 {
+        margin: 0 0 40px 0;
+    }
+    .publication-shadow{
+        width: calc(100% - 120px);
+        position: absolute;
+        z-index: 100;
+        height: 200px;
+        background: linear-gradient(180deg, rgba(245, 245, 250, 0) 0%, #F5F5FA 86.5%);
+        top: 80%;
+        padding: 0;
+    }
+    .btn{
+        margin:auto;
+        margin-top: 110px;
+    }
+    .publication-border{
+        margin: 25px 0 0 0;
+    }
+    .homepage-border{
+        width: 100%;
+    }
+}
+@media (min-width: 1400px){
+    .sp-wraper{
+        flex-basis: 32.182%;
+    }
+    .publication-shadow{
+        width: calc(100% - 118px);
+        top: 80%;
+    }
+    .publication-border{
+        margin: 27px 0 0 0;
+    }
+}

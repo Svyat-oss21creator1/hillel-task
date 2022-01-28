@@ -1,0 +1,122 @@
+
+.team{
+    margin: 20px 20px 30px 20px;
+    border-radius: 12px;
+}
+.team-card{
+    padding: 20px 20px 20px 21px;
+    background-color: #F5F5FA;
+    border-radius: 12px; 
+}
+.team-image-decstope{
+    display: none;
+}
+.team-wraper-a{
+    color: #24A3FF;
+}
+.team-wraper-h2{
+    font-size: 32px;
+    line-height: 38px;
+    margin: 3px 0 0 0;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.group{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+.group-description{
+    margin: 0 0 0 10px;
+}
+.group-description-name{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #B3B3BA;
+    margin: 0 0 5px 0;
+}
+.group-description-position{
+    font-size: 16px;
+    line-height: 22px;
+    color: #B3B3BA;
+    margin: 0;
+}
+/* =================Переопределение стандартных настроек owl carousel================*/
+.owl-dots {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+} 
+.owl-dot.active:hover {
+    opacity: 1;
+}
+.owl-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #24a3ff !important;
+    opacity: 0.2;
+    margin-right: 14px;
+}  
+.owl-dot:last-child {
+    margin-right: 0;
+} 
+.owl-dot.active {
+    background-color: #24a3ff;
+    opacity: 1;
+}
+.owl-dot:hover {
+    opacity: 0.6;
+}
+  
+@media (min-width: 830px){
+    .team{
+        padding: 0;
+        margin: 40px 20px 36px 20px;
+        border-radius: 12px;
+    }
+    .team-card{
+        padding: 0;
+        display: flex;
+    }
+    .team-image-decstope{
+        display: flex;
+        width: 100%;
+    }
+    .carousel-wraper{
+        padding: 20px 20px 20px 20px;
+    }
+    .team-wraper-h2{
+        font-size: 30px;
+        line-height: 38px;
+        font-weight: 700;      
+    }
+    .team-image-mobile,.group-img{
+        display: none;
+    }
+    .group-description{
+        margin-left: 0;
+    }
+}
+@media (min-width: 1024px){
+    .carousel-wraper{
+        padding: 40px 40px 40px 40px;
+    }
+    .team-wraper-h2{
+        font-size: 38px;
+        line-height: 46px;     
+    }
+}
+@media (min-width: 1200px){
+    .team{
+        margin: 60px 60px 36px 60px;
+    }
+    .team-wraper-h2{
+        font-size: 42px;
+        line-height: 50px;     
+    }
+}
+
+

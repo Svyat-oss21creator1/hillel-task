@@ -1,0 +1,123 @@
+.footer{
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+    background: #F5F5FA;
+    border-radius: 12px 12px 0px 0px;
+}
+.fp{
+    margin: 0 auto;
+    color: #323264;
+    padding: 20px 0 10px 0;
+}
+.footerds{
+    display: none;
+}
+.tel{
+    margin: 20px 0;
+}
+.tel a{
+    color: #46466E;
+}
+.map{
+    margin: 0 0 20px 0;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.map a,.mail a{
+    color: var(--clr-txt-blue);
+    text-decoration: none;
+}
+.map a:hover{
+    color: var(--clr-accent-red);
+}
+.mail a:hover{
+    color: var(--clr-accent-red);
+}
+.fh3{
+    font-size: 16px;
+    line-height: 19px;
+    padding: 20px 20px 118px 20px;
+    font-weight: 500;
+    color: #B3B3BA;
+    margin: 0;
+}
+.homepage-border{
+    background: #F5F5FA;
+    width: calc(100% - 40px);
+    margin: auto;
+    border-top: 4px solid #E6E6F0;
+}
+.facebook-img {
+	color: var(--clr-txt-blue);
+}
+
+.facebook-img:hover {
+	color: var(--clr-accent-red);
+}
+@media (min-width: 768px){
+    .footer{
+        padding: 32px 60px 40px 60px;
+    }
+    .footerds{
+        display: block;
+    }
+    .footer-left-first-line,
+    .footer-left-second-line{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-left-first-line{
+        padding: 32px 0 22px 0;
+    }
+    .fp {
+        margin: 0;
+        padding: 0; 
+    }
+    .footerds{
+        display: block;
+        margin: 0 10px 0 10px;
+    }
+    .map {
+        margin: 0;
+    }
+    .fh3 {
+        padding: 29px 20px 81px 20px;
+    }
+    .tel {
+        margin: 0;
+    }
+}
+@media (min-width: 1024px){
+    .footer{
+        padding: 32px 60px 40px 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-left{
+        display: flex;
+        flex-direction: column;
+    }
+    .homepage-border{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer-left-first-line{
+        margin-bottom: 22px;
+        padding: 0;
+    }
+    .footer-left-second-line{
+        justify-content: flex-start;
+    }
+    .fh3{
+        padding: 32px 0 68px 20px;
+    }
+}
